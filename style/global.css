@@ -1,0 +1,86 @@
+.me {
+    background-color: #fff!important;
+}
+.main-header {
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.logo {
+    font-size: 14px;
+    background: url(../../assets/img/me/logo.png) no-repeat;
+    width: 85px;
+    height: 24px;
+    margin: 0  10px;
+    background-size: contain;
+    border-right:1px solid #e6e6e6 ;  
+}
+
+.icon-menu {
+    background: url(../../assets/img/me/ic_three.png) no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+  
+.operation {
+    margin: 20px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.operation .download {
+    display: block;
+    width: 14px;
+    height: 15px;
+    background: url(../../assets/img/me/download.png) no-repeat;
+    background-size: contain;
+}
+.lang-select  a {
+    display: block;
+    margin: 0 10px;
+    width: 48px;
+    height: 24px;
+    line-height: 24px;
+    color: #889098;
+}
+.lang-select  .chinese {
+    background: #eff8f9;
+    border-radius: 4px;
+    text-align: center;
+    color: #00bac7;
+}
+  
+.info  h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .avatar img {
+    display: block;
+      margin: 30px auto;
+      width: 80px;
+      height: 110px;
+  }
+  .mod-flex {
+    padding: 8px 0;
+  }
+  .title {
+    width: 130px;
+    margin-right: 25px;
+    text-align: right;
+    color: #999999;
+  }
+  .content {
+    color: #000;
+  }
+  
+  .footer {
+    background: #282828;
+    padding: 12px 0;
+    line-height: 24px;
+    text-align: center;
+    color: hsla(0,0%,100%,.6);
+    font-size: 12px;
+  }

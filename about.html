@@ -2,8 +2,232 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2, user-scalable=0">
+<style type="text/css">
+    html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.me {
+    background-color: #fff!important;
+}
+.main-header {
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+.logo {
+    font-size: 14px;
+    background: url(img/logo.png) no-repeat;
+    width: 85px;
+    height: 24px;
+    margin: 0  10px;
+    background-size: contain;
+    border-right:1px solid #e6e6e6 ;  
+}
+
+.icon-menu {
+    background: url(img/ic_three.png) no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+  
+.operation {
+    margin: 20px;
+    font-size: 12px;
+    line-height: 24px;
+}
+.operation .download {
+    display: block;
+    width: 14px;
+    height: 15px;
+    background: url(img/download.png) no-repeat;
+    background-size: contain;
+}
+.lang-select  a {
+    display: block;
+    margin: 0 10px;
+    width: 48px;
+    height: 24px;
+    line-height: 24px;
+    color: #889098;
+}
+.lang-select  .chinese {
+    background: #eff8f9;
+    border-radius: 4px;
+    text-align: center;
+    color: #00bac7;
+}
+  
+.info  h2 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .avatar img {
+    display: block;
+      margin: 30px auto;
+      width: 80px;
+      height: 110px;
+  }
+  .mod-flex {
+    display: flex;
+    padding: 8px 0;
+  }
+  .title {
+    width: 130px;
+    margin-right: 25px;
+    text-align: right;
+    color: #999999;
+  }
+  .content {
+    color: #000;
+  }
+  
+  .footer {
+    background: #282828;
+    padding: 12px 0;
+    line-height: 24px;
+    text-align: center;
+    color: hsla(0,0%,100%,.6);
+    font-size: 12px;
+  }
+</style>
 </head>
 <body>
-    <h1>测试内容 monica</h1>
+    <div class="me">
+        <div class="mod-flex main-header">
+          <div class="mod-flex mod-flex-item">
+            <h1 class="logo"></h1>
+            <span>在线验证</span>
+          </div>
+          <a href="" class="icon-menu"></a>
+        </div>
+        <div class="operation">
+          <div class="mod-flex">
+            <div class="mod-flex mod-flex-item lang-select">
+              <div>报告语种</div>
+              <a class="chinese">中文</a>
+              <a class="english">英语</a>
+            </div>
+            <a href="" class="download"></a>
+          </div>
+        </div>
+    
+        <div class="info">
+          <h2>教育部学历证书电子注册备案表</h2>
+          <div class="avatar"><img src="img/me.jpg" alt=""></div>
+          <div class="mod-flex">
+            <div class="title">姓名</div>
+            <div class="content">秦青</div>
+          </div>  
+          <div class="mod-flex">
+            <div class="title">性别</div>
+            <div class="content">女</div>
+          </div> 
+          <div class="mod-flex">
+            <div class="title">出生日期</div>
+            <div class="content">1984年09月17日</div>
+          </div> 
+          <div class="mod-flex">
+            <div class="title">入学日期</div>
+            <div class="content">2004年09月01日</div>
+          </div> 
+          <div class="mod-flex">
+            <div class="title">毕（结）业日期</div>
+            <div class="content">2008年06月30日</div>
+          </div> 
+          <div class="mod-flex">
+            <div class="title">学校名称</div>
+            <div class="content">华中师范大学</div>
+          </div> 
+          <div class="mod-flex">
+            <div class="title">专业</div>
+            <div class="content">计算机通信工程</div>
+          </div> 
+          <div class="mod-flex">
+            <div class="title">学制</div>
+            <div class="content">4 年</div>
+          </div> 
+          <div class="mod-flex">
+            <div class="title">层次</div>
+            <div class="content">本科</div>
+          </div> 
+          <div class="mod-flex">
+            <div class="title">学历类别</div>
+            <div class="content">普通高等教育</div>
+          </div>   
+          <div class="mod-flex">
+            <div class="title">学习形式</div>
+            <div class="content">普通全日制</div>
+          </div>
+          <div class="mod-flex">
+            <div class="title">毕（结）业</div>
+            <div class="content">毕业</div>
+          </div>
+          <div class="mod-flex">
+            <div class="title">证书编号</div>
+            <div class="content">1051 1520 0805 0024 36</div>
+          </div>
+          <div class="mod-flex">
+            <div class="title">校（院）长姓名</div>
+            <div class="content"></div>
+          </div>
+          <div class="mod-flex">
+            <div class="title">在线验证码</div>
+            <div class="content">A36AJ67H4N6LG6MF</div>
+          </div>
+          <div class="mod-flex">
+            <div class="title">更新日期</div>
+            <div class="content">2023年12月09日</div>
+          </div>
+        </div>
+    
+        <div class="footer">
+          <p>主办单位：教育部学生服务与素质发展中心</p>
+          <p>Copyright © 2003-2024 学信网  All Rights Reserved </p>
+        </div>
+    </div>
 </body>
 </html>
