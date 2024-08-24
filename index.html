@@ -278,7 +278,7 @@ body {
           </div>
           <div class="mod-flex">
             <div class="title">更新日期</div>
-            <div class="content">2024年9月02日</div>
+            <div class="content" id="date"></div>
           </div>
         </div>
     
@@ -288,4 +288,23 @@ body {
         </div>
     </div>
 </body>
+<script>
+  window.onload=function (){
+    const dateDiv = document.getElementById('date');
+  
+    // 步骤2: 创建Date对象获取当前日期
+    const now = new Date();
+    
+    // 步骤3: 使用Date对象的方法获取年、月、日
+    const year = now.getFullYear();
+    const month = (now.getMonth() + 1).toString().padStart(2, '0'); // 月份从0开始，需要加1，并且补0到两位数
+    const day = now.getDate().toString().padStart(2, '0'); // 补0到两位数
+    
+    // 步骤4: 将获取到的日期格式化为字符串
+    const formattedDate = `${year}年${month}月${day}日`;
+    
+    // 步骤5: 将格式化后的字符串设置为<div>元素的innerHTML
+    dateDiv.innerHTML = formattedDate;
+  }
+</script>
 </html>
